@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/Dave136/smapper/compare/v0.0.5...v0.0.6)
+
+### 🩹 Fixes
+
+- Bad module export ([590dde0](https://github.com/Dave136/smapper/commit/590dde0))
+
+### ❤️  Contributors
+
+- David Arenas <davejs136@gmail.com>
+
 ## v0.0.5
 
 [compare changes](https://github.com/Dave136/smapper/compare/v0.0.4...v0.0.5)
