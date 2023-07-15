@@ -6,7 +6,7 @@ import { isArray, isObject, has as $has, first as $first, each as $each } from '
  * @returns mapped object
  */
 
-export function mapperData<T>(data: any): T {
+function mapperData<T>(data: any): T {
   // Single
   if ($has(data, 'attributes')) {
     return mapperData(removeObjectKey(data, 'attributes'));
@@ -76,3 +76,5 @@ const removeObjectKey = <T extends { [key: string]: any }>(object: T, key: strin
   id: object.id,
   ...object[key],
 });
+
+export default mapperData;
