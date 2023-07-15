@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/Dave136/smapper/compare/v0.0.4...v0.0.5)
+
+### 🩹 Fixes
+
+- Declare and import types correctly ([90de392](https://github.com/Dave136/smapper/commit/90de392))
+
+### 💅 Refactors
+
+- Remove no used src/types.ts ([54cd573](https://github.com/Dave136/smapper/commit/54cd573))
+
+### ❤️  Contributors
+
+- David Arenas <davejs136@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/Dave136/smapper/compare/v0.0.3...v0.0.4)
