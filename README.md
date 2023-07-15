@@ -2,7 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
 Simple mapper to remove strapi wrappers
@@ -37,6 +36,42 @@ import mapper from "smapper";
 const mapper = require("smapper");
 ```
 
+We have a graphql like this:
+
+```graphql
+query Posts {
+  posts {
+    data {
+      attributes {
+        title
+        content
+        slug
+        images {
+          data {
+            id
+            attributes {
+              name
+              formats
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+And you want remove the data and attributes wrappers, just call the function imported and pass the graphql result as parameter:
+
+```javascript
+import mapper from 'smapper';
+import GetPost from './graphql';
+
+const response = await graphql(GetPost);
+const mapped = mapper(response);
+```
+
 ## Development
 
 - Clone this repository
@@ -62,7 +97,5 @@ Published under [MIT License](./LICENSE).
 [npm-version-href]: https://npmjs.com/package/smapper
 [npm-downloads-src]: https://img.shields.io/npm/dm/smapper?style=flat&colorA=007ec6&colorB=F0DB4F
 [npm-downloads-href]: https://npmjs.com/package/smapper
-[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/smapper/main?style=flat&colorA=007ec6&colorB=F0DB4F
-[codecov-href]: https://codecov.io/gh/unjs/smapper
 [license-src]: https://img.shields.io/github/license/unjs/smapper.svg?style=flat&colorA=007ec6&colorB=F0DB4F
-[license-href]: https://github.com/unjs/smapper/blob/main/LICENSE
+[license-href]: https://github.com/Dave136/smapper/blob/main/README.md
