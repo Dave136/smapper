@@ -4,24 +4,32 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  lodash:
+    specifier: ^4.17.21
+    version: 4.17.21
+
 devDependencies:
+  '@types/lodash':
+    specifier: ^4.14.195
+    version: 4.14.195
   '@vitest/coverage-v8':
-    specifier: ^0.33.0
+    specifier: 0.33.0
     version: 0.33.0(vitest@0.33.0)
   changelogen:
-    specifier: ^0.5.4
+    specifier: 0.5.4
     version: 0.5.4
   prettier:
-    specifier: ^3.0.0
+    specifier: 3.0.0
     version: 3.0.0
   tsup:
-    specifier: ^7.1.0
+    specifier: 7.1.0
     version: 7.1.0(typescript@5.1.6)
   typescript:
-    specifier: ^5.1.6
+    specifier: 5.1.6
     version: 5.1.6
   vitest:
-    specifier: ^0.33.0
+    specifier: 0.33.0
     version: 0.33.0
 
 packages:
@@ -319,6 +327,10 @@ packages:
 
   /@types/istanbul-lib-coverage@2.0.4:
     resolution: {integrity: sha512-z/QT1XN4K4KYuslS23k62yDIDLwLFkzxOuMplDtObz0+y7VqJCaO2o+SPwHCvLFZh7xazvvoor2tA/hPz9ee7g==}
+    dev: true
+
+  /@types/lodash@4.14.195:
+    resolution: {integrity: sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==}
     dev: true
 
   /@types/node@20.4.2:
@@ -1019,6 +1031,10 @@ packages:
   /lodash.sortby@4.7.0:
     resolution: {integrity: sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==}
     dev: true
+
+  /lodash@4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
 
   /loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
