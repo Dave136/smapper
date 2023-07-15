@@ -1,3 +1,3 @@
-interface mapperData<T> {
+export interface mapperData<T> {
   (data: any): T;
 }
