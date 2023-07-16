@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/Dave136/smapper/compare/v0.0.6...v0.0.7)
+
+### 🩹 Fixes
+
+- No specify lodash as dependency ([99ca165](https://github.com/Dave136/smapper/commit/99ca165))
+
+### ❤️  Contributors
+
+- David Arenas <davejs136@gmail.com>
+
 ## v0.0.6
 
 [compare changes](https://github.com/Dave136/smapper/compare/v0.0.5...v0.0.6)
