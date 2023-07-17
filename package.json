@@ -1,6 +1,6 @@
 {
   "name": "smapper",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "David Arenas (davejs136@gmail.com)",
   "description": "Mapper function to transform the Strapi API response",
   "bugs": {

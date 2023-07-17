@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.8
+
+[compare changes](https://github.com/davejs136/smapper/compare/v0.0.7...v0.0.8)
+
+### 🏡 Chore
+
+- **npm:** Update package metadata ([22dcfec](https://github.com/davejs136/smapper/commit/22dcfec))
+
+### ❤️  Contributors
+
+- David Arenas <davejs136@gmail.com>
+
 ## v0.0.7
 
 [compare changes](https://github.com/Dave136/smapper/compare/v0.0.6...v0.0.7)
