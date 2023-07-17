@@ -93,9 +93,9 @@ Published under [MIT License](./LICENSE).
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/smapper?style=flat&colorA=007ec6&colorB=F0DB4F
+[npm-version-src]: https://img.shields.io/npm/v/smapper?style=flat&colorA=18181B&colorB=007ec6
 [npm-version-href]: https://npmjs.com/package/smapper
-[npm-downloads-src]: https://img.shields.io/npm/dm/smapper?style=flat&colorA=007ec6&colorB=F0DB4F
+[npm-downloads-src]: https://img.shields.io/npm/dm/smapper?style=flat&colorA=18181B&colorB=007ec6
 [npm-downloads-href]: https://npmjs.com/package/smapper
-[license-src]: https://img.shields.io/github/license/unjs/smapper.svg?style=flat&colorA=007ec6&colorB=F0DB4F
-[license-href]: https://github.com/Dave136/smapper/blob/main/README.md
+[license-src]: https://img.shields.io/github/license/unjs/smapper.svg?style=flat&colorA=18181B&colorB=007ec6
+[license-href]: https://github.com/Dave136/smapper/blob/main/LICENSE
