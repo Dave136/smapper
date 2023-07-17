@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.9
+
+[compare changes](https://github.com/Dave136/smapper/compare/v0.0.8...v0.0.9)
+
+### 🏡 Chore
+
+- **npm:** Update repo links ([3c7cf2a](https://github.com/Dave136/smapper/commit/3c7cf2a))
+
+### ❤️  Contributors
+
+- David Arenas <davejs136@gmail.com>
+
 ## v0.0.8
 
 [compare changes](https://github.com/davejs136/smapper/compare/v0.0.7...v0.0.8)
