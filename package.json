@@ -3,6 +3,13 @@
   "version": "0.0.7",
   "author": "David Arenas (davejs136@gmail.com)",
   "description": "Mapper function to transform the Strapi API response",
+  "bugs": {
+    "url": "https://github.com/davejs136/smapper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davejs136/smapper.git"
+  },
   "type": "module",
   "keywords": [
     "strapi",
