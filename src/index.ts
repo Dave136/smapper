@@ -6,7 +6,19 @@ import { isArray, isObject, has as $has, first as $first, each as $each } from '
  * @returns mapped object
  */
 
-function mapperData<T>(data: any): T {
+export interface Options {
+  removeAttributesKey?: boolean;
+  removeDataKey?: boolean;
+  wrapBodyWithDataKey?: boolean;
+}
+
+const defaultOptions: Options = {
+  removeAttributesKey: false,
+  removeDataKey: false,
+  wrapBodyWithDataKey: false,
+}
+
+function mapperData<T>(data: any, options: Options = {}): T {
   // Single
   if ($has(data, 'attributes')) {
     return mapperData(removeObjectKey(data, 'attributes'));
