@@ -1,4 +1,4 @@
-import { isArray, isObject, has as $has, first as $first, each as $each } from 'lodash';
+import { isArray, isObject, has as $has, first as $first, each as $each } from 'underscore';
 
 /**
  * Transform the Strapi API response removing the not needed nesting
