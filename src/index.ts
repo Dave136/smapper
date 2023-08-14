@@ -9,13 +9,11 @@ import { isArray, isObject, has as $has, first as $first, each as $each } from '
 export interface Options {
   removeAttributesKey?: boolean;
   removeDataKey?: boolean;
-  wrapBodyWithDataKey?: boolean;
 }
 
 const defaultOptions: Options = {
   removeAttributesKey: false,
   removeDataKey: false,
-  wrapBodyWithDataKey: false,
 }
 
 function mapperData<T>(data: any, options: Options = {}): T {
